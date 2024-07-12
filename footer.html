@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <a href="#" class="navbar-logo">Logo</a>
+            <ul class="navbar-menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="button-container">
+                <button class="ver-detalles-button">Ver Detalles</button>
+            </div>
+        </div>
+
+        <div id="product-container" class="product-container">
+            <!-- Los productos se renderizarán dinámicamente aquí -->
+        </div>
+
+        <div class="overlay" id="overlay">
+            <img id="overlay-image" src="" >
+        </div>
+
+        <div class="cart-container" id="cart">
+        
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <img src="images/nike-logo.png" alt="Logo Nike" class="footer-logo">
+            <p>© 2024 Nike. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/js/nav.js"></script>
+    <script src="/js/compras.js"></script>
+    <script src="/js/camisetas.js"></script>
+    <script src="/js/contato.js"></script>
+    <script src="payment.js"></script>
+    <script src="/js/footer.js"></script>
+
+        
+
+</body>
+</html>
